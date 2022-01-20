@@ -15,7 +15,7 @@ const LineChart = () => {
                         {
                             label: 'Heart Rate',
                             data: [75, 73, 60, 62, 60, 68, 72, 75, 79],
-                            borderColor: 'rgb(95, 164, 190)',
+                            borderColor: 'rgb(229, 57, 53)',
                             borderWidth: 5
                         },
                     ],
