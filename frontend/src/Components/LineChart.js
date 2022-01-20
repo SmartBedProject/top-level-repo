@@ -1,6 +1,9 @@
 import React from 'react'
 import { Line, Chart } from 'react-chartjs-2'
 import {Chart as ChartJS} from 'chart.js/auto'
+import { defaults } from 'chart.js'
+
+defaults.font.size = 30;
 
 const LineChart = () => {
     return (
@@ -11,7 +14,9 @@ const LineChart = () => {
                     datasets:[
                         {
                             label: 'Heart Rate',
-                            data: [75, 73, 60, 62, 60, 68, 72, 75, 79]
+                            data: [75, 73, 60, 62, 60, 68, 72, 75, 79],
+                            borderColor: 'rgb(95, 164, 190)',
+                            borderWidth: 5
                         },
                     ],
                 }}
