@@ -11,7 +11,9 @@ const EEG_Data = () => {
                     datasets:[
                         {
                             label: 'REM Detection',
-                            data: [1, 2, 3, 4, 2, 4, 3, 2, 1]
+                            data: [1, 2, 3, 4, 2, 4, 3, 2, 1],
+                            borderColor: 'rgb(95, 164, 190)',
+                            borderWidth: 5
                         },
                     ],
                 }}
